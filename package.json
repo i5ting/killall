@@ -1,6 +1,6 @@
 {
   "name": "killall",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "killall =============",
   "main": "index.js",
   "scripts": {

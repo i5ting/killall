@@ -8,6 +8,11 @@ require('shelljs/global');
 if(process.argv[1]){
 	var pname = process.argv[1];
 	var cmd = "ps -ef|grep " + pname + "|awk '{print $2}'|xargs kill -9"
+	
+	exec("ps -ef|grep " + pname)
+	
+	console.log(cmd);
+	
 	if (exec(cmd).code !== 0) {
 	  echo('Error: ' + cmd + ' commit failed');
 	  exit(1);
