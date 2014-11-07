@@ -17,6 +17,10 @@ if(process.argv[1]){
 	  echo('Error: ' + cmd + ' commit failed');
 	  exit(1);
 	}
+	
+	exec("\n")
+	exec("ps -ef|grep " + pname)
+	
 }else{
 	echo('Error: 需要传入一个进程名称，如pm2');
 }
