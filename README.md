@@ -1,4 +1,11 @@
-node-cli-demo
+killall:a npm for kill -9 all processes
 =============
 
-demo for how-to-write-a-node-cli-tools
+## 安装
+
+	sudo npm install -g killall
+
+## 用法
+
+	killall pm2
+	killall node

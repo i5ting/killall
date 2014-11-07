@@ -22,9 +22,10 @@ if(process.argv[1]){
 	exec("ps -ef|grep " + pname)
 	
 }else{
-	echo('Error: 需要传入一个进程名称，如pm2');
+	echo('Error: 需要传入一个进程名称，如killall pm2');
 }
 
+console.log('killall execute successfull！')
 //
 // /**
 //  * Module dependencies.
