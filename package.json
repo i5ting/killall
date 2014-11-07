@@ -1,7 +1,7 @@
 {
   "name": "killall",
-  "version": "1.0.3",
-  "description": "killall =============",
+  "version": "1.0.4",
+  "description": "killall: a npm for kill -9 all processes",
   "main": "index.js",
   "scripts": {
     "start": "npm publish .",
@@ -11,8 +11,8 @@
     "type": "git",
     "url": "https://github.com/i5ting/killall.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "i5ting",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/i5ting/killall/issues"
   },
@@ -33,10 +33,6 @@
     "zombie": "^2.1.1"
   },
   "dependencies": {
-    "commander": "^2.5.0",
-    "config": "^1.7.0",
-    "handlebars": "^2.0.0",
-    "request": "^2.47.0",
     "shelljs": "^0.3.0"
   },
   "homepage": "https://github.com/i5ting/killall"
