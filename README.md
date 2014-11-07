@@ -43,6 +43,7 @@ a npm for kill -9 all processes
 
 ## 版本历史
 
+- v1.0.4 当前正式版本
 - v0.1.0 初始化版本
 
 ## 欢迎fork和反馈
