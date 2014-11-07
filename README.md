@@ -3,6 +3,7 @@ killall
 
 a npm for kill -9 all processes
 
+[![npm version](https://badge.fury.io/js/killall.svg)](http://badge.fury.io/js/killall)
 
 以前每次都这样杀掉所有进程
 
