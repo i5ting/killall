@@ -95,6 +95,11 @@ a npm for kill -9 all processes
 	
 如果发现gulp中断，即表示杀死进程成功。
 
+## 相似项目
+
+https://github.com/robotlolita/fuck-you
+
+
 ## Contributing
 
 1. Fork it
